@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<project basedir="." default="jar" name="dataclip-pig">
+
+  <property name="src.dir" value="${basedir}/src/java"/>
+  <property name="lib.dir" value="${basedir}/lib"/>
+  <property name="build.dir" value="${basedir}/build"/>
+  <property name="classes.dir" value="${build.dir}/classes"/>
+
+  <path id="classpath">
+    <fileset dir="${lib.dir}">
+      <include name="**/*.jar" />
+    </fileset>
+  </path>
+
+  <target name="compile">
+    <mkdir dir="${build.dir}"/>
+    <mkdir dir="${classes.dir}"/>
+    <javac
+     srcdir="${src.dir}"
+     destdir="${classes.dir}"
+     target="1.6"
+     source="1.6"
+     debug="true"
+     debuglevel="lines,vars,source"
+     >
+      <classpath refid="classpath"/>
+    </javac>
+  </target>
+
+  <target name="jar" depends="compile">
+    <jar jarfile="${build.dir}/dataclip-piggybank.jar" basedir="${classes.dir}">
+      <manifest>
+        <section name="com/datavibe/piggybank">
+          <attribute name="Implementation-Title" value="Dataclip-Piggybank"/>
+          <attribute name="Implementation-Version" value="0.1"/>
+          <attribute name="Implementation-Vendor" value="Dataclip"/>
+        </section>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="clean">
+    <delete dir="${build.dir}"/>
+  </target>
+
+</project>
