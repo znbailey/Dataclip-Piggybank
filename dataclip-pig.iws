@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e1cbeb05-29fa-4214-97c3-1b16ad8ffdc3" name="Default" comment="" />
-    <ignored path="$USER_HOME_GRIFFON$/" />
     <ignored path="$USER_HOME_GRAILS$/" />
+    <ignored path="$USER_HOME_GRIFFON$/" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +63,28 @@
       <file leaf-file-name="URI_HOST.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/dataclip/piggybank/URI_HOST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="24" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0">
+            <state line="31" column="46" selection-start="1049" selection-end="1073" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATACLIP_TYPE.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/dataclip/piggybank/DATACLIP_TYPE.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="8" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EXTRACT_HEADER.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/com/dataclip/piggybank/EXTRACT_HEADER.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="27" selection-start="185" selection-end="199" vertical-scroll-proportion="0.1388889">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,9 +93,7 @@
         <entry file="file://$PROJECT_DIR$/src/java/com/dataclip/piggybank/AHO_CORASICK.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,7 +119,7 @@
       <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="34" selection-start="668" selection-end="668" vertical-scroll-proportion="-13.8">
+            <state line="23" column="34" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,10 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LICENSE" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LICENSE" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/org/arabidopsis/ahocorasick/LICENSE">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="40" selection-start="25" selection-end="34" vertical-scroll-proportion="0.0">
+            <state line="29" column="87" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,9 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/java/com/dataclip/piggybank/HtmlOnly.java" />
-        <option value="$PROJECT_DIR$/src/java/org/archive/io/hdfs/HdfsWriterDocument.java" />
-        <option value="$PROJECT_DIR$/src/java/com/dataclip/piggybank/PageContent.java" />
         <option value="$PROJECT_DIR$/src/java/com/dataclip/piggybank/Base64.java" />
         <option value="$PROJECT_DIR$/src/java/com/dataclip/piggybank/EncBase64.java" />
         <option value="$PROJECT_DIR$/src/java/com/dataclip/piggybank/CONTAINS.java" />
@@ -162,8 +177,11 @@
         <option value="$PROJECT_DIR$/src/java/com/dataclip/piggybank/COLLAPSE.java" />
         <option value="$PROJECT_DIR$/src/java/com/dataclip/piggybank/CONTAINS_ANY.java" />
         <option value="$PROJECT_DIR$/src/java/com/dataclip/piggybank/URI_DOMAIN.java" />
-        <option value="$PROJECT_DIR$/src/java/com/dataclip/piggybank/URI_HOST.java" />
         <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/src/java/com/dataclip/piggybank/URI_HOST.java" />
+        <option value="$PROJECT_DIR$/src/java/com/dataclip/piggybank/DATACLIP_TYPE.java" />
+        <option value="$PROJECT_DIR$/src/java/com/dataclip/piggybank/HttpToISO.java" />
+        <option value="$PROJECT_DIR$/src/java/com/dataclip/piggybank/EXTRACT_HEADER.java" />
       </list>
     </option>
   </component>
@@ -203,8 +221,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -262,6 +278,10 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piggybank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -279,6 +299,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,16 +318,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/java/org/arabidopsis/ahocorasick" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.URI_HOST">
+  <component name="RunManager" selected="Application.EXTRACT_HEADER">
     <configuration default="false" name="URI_HOST" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
@@ -388,6 +410,29 @@
       </extension>
       <extension name="snapshooter" />
       <option name="MAIN_CLASS_NAME" value="com.dataclip.piggybank.CONTAINS_ANY" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="dataclip-pig" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EXTRACT_HEADER" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="com.dataclip.piggybank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <option name="MAIN_CLASS_NAME" value="com.dataclip.piggybank.EXTRACT_HEADER" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -539,11 +584,12 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.URI_HOST" />
       <item index="1" class="java.lang.String" itemvalue="Application.COLLAPSE" />
       <item index="2" class="java.lang.String" itemvalue="Application.AHO_CORASICK" />
       <item index="3" class="java.lang.String" itemvalue="Application.CONTAINS_ANY" />
+      <item index="4" class="java.lang.String" itemvalue="Application.EXTRACT_HEADER" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -577,7 +623,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1765" y="64" width="1440" height="821" extended-state="0" />
+    <frame x="1851" y="112" width="1440" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -587,6 +633,7 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -597,7 +644,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -659,18 +705,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/dataclip/piggybank/URI_HOST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="24" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="31" column="46" selection-start="1049" selection-end="1073" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/dataclip/piggybank/AHO_CORASICK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="17" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/dataclip/piggybank/COLLAPSE.java">
@@ -680,36 +720,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/dataclip/piggybank/CONTAINS_ANY.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="36" column="13" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="668" selection-end="668" vertical-scroll-proportion="-13.8">
-          <folding />
-        </state>
+        <state line="23" column="34" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/org/arabidopsis/ahocorasick/AhoCorasick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="13" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="39" column="13" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/org/arabidopsis/ahocorasick/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="6" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/org/arabidopsis/ahocorasick/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="40" selection-start="25" selection-end="34" vertical-scroll-proportion="0.0">
+        <state line="29" column="87" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/dataclip/piggybank/DATACLIP_TYPE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="8" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/dataclip/piggybank/EXTRACT_HEADER.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="185" selection-end="199" vertical-scroll-proportion="0.1388889">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
